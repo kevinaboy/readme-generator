@@ -39,6 +39,18 @@ const questions = [{
   name: 'license',
   message: 'What license would you like to select?',
   choices: ['MIT', 'ISC', 'Mozilla']
+},
+{
+  type: 'input',
+  name: 'username',
+  message: 'What is your GitHub username?',
+  choices: 'Enter username'
+},
+{
+  type: 'input',
+  name: 'email',
+  message: 'What is your email address?',
+  choices: 'Enter email address'
 }
 ];
 
